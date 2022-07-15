@@ -1,0 +1,11 @@
+class Solution:
+
+    def singleNumber(self, nums: List[int]):
+
+        rem=0    
+
+        for t in nums:
+
+            rem=rem^t
+
+        return rem
